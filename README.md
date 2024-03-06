@@ -1,8 +1,21 @@
 # Smart Weather Station
 The Weather Station is a comprehensive project designed to provide real-time monitoring of rainfall, and display of temperature, and humidity levels. The system employs various sensors and communication protocols to ensure accurate data collection and seamless information dissemination.
 
+## Menu
+
+* [Methods and Materials](#methods-and-materials)
+  - [Hardware Components](#hardware-components)
+  - [Software Tools](#software-tools)
+* [Implementation](#implementation)
+* [Other Features](#other-features)
+* [Results](#results)
+  - [Key Achievements](#key-achievements)
+  - [Potential Areas for Further Improvement](#potential-areas-for-further-improvement)
+* [Weather Station High Level Block Diagram](#weather-station-high-level-block-diagram)
+
 ## Methods and Materials
-**Hardware Components:**
+
+### Hardware Components
 
 **1. Raspberry Pi Pico W:**
 The Raspberry Pi Pico W serves as the central processing unit and controller for the entire system. Its compact form factor and GPIO capabilities make it ideal for interfacing with various sensors and actuators.
@@ -19,7 +32,7 @@ A PS12 buzzer is integrated into the system to provide audible alerts when rainf
 **5. SSD1306 OLED Display:**
 The OLED display is used for presenting real-time temperature and humidity data in a visually accessible manner. Its compact size and low power consumption make it an ideal choice for this application.
 
-**Software Tools:**
+### Software Tools:
 
 **FreeRTOS:**
 FreeRTOS is employed as the real-time operating system for managing tasks, scheduling, and ensuring timely execution of critical functions. Its efficiency in handling concurrent processes enhances the overall reliability and responsiveness of the system.
@@ -40,7 +53,7 @@ The system employs a Raspberry Pi Pico W as the main processing unit, interfacin
 ## Results
 The Smart Rainfall Monitoring and Environmental Display System has successfully achieved its primary goal, demonstrating effectiveness in monitoring rainfall, capturing temperature and humidity data, and providing real-time alerts. The system's performance aligns with the project objectives, and the outcomes are promising.
 
-**Key Achievements:**
+### Key Achievements
 
 **1. Rainfall Monitoring:**
 The rain detection module, coupled with the buzzer alert system, effectively notifies users when rainfall is detected, contributing to improved situational awareness.
@@ -57,7 +70,7 @@ The OLED display presents temperature and humidity information in real-time, off
 **5. FreeRTOS Integration:**
 The successful integration and utilization of FreeRTOS have been instrumental in achieving seamless task management. FreeRTOS ensures efficient scheduling, synchronization, and execution of tasks, contributing to the overall responsiveness and reliability of the Weather Station.
 
-**Potential Areas for Further Improvement:**
+### Potential Areas for Further Improvement
 
 **1. Sensor Expansion:**
 Integration of additional sensors, such as pressure and wind speed sensors, could enhance the system's capability to provide a more comprehensive set of environmental data.
@@ -65,3 +78,6 @@ Integration of additional sensors, such as pressure and wind speed sensors, coul
 **2. Power Efficiency:**
 Investigating power-efficient strategies, especially for scenarios where the system operates on battery power, could contribute to prolonged system uptime.
 
+## Weather Station High Level Block Diagram 
+
+![image](https://github.com/kikani-parth/Weather_Station/assets/99806873/a6c2754b-c1d4-4f0f-8275-180c7019172b)
